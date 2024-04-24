@@ -1,0 +1,53 @@
+C:\Users\HP\OneDrive\Desktop\19APP3906 - GYM\GYM\GYM\bin\Debug\GYM.exe.config
+C:\Users\HP\OneDrive\Desktop\19APP3906 - GYM\GYM\GYM\bin\Debug\GYM.exe
+C:\Users\HP\OneDrive\Desktop\19APP3906 - GYM\GYM\GYM\bin\Debug\GYM.pdb
+C:\Users\HP\OneDrive\Desktop\19APP3906 - GYM\GYM\GYM\bin\Debug\MySql.Data.dll
+C:\Users\HP\OneDrive\Desktop\19APP3906 - GYM\GYM\GYM\obj\Debug\GYM.csprojResolveAssemblyReference.cache
+C:\Users\HP\OneDrive\Desktop\19APP3906 - GYM\GYM\GYM\obj\Debug\GYM.Form1.resources
+C:\Users\HP\OneDrive\Desktop\19APP3906 - GYM\GYM\GYM\obj\Debug\GYM.Properties.Resources.resources
+C:\Users\HP\OneDrive\Desktop\19APP3906 - GYM\GYM\GYM\obj\Debug\GYM.csproj.GenerateResource.Cache
+C:\Users\HP\OneDrive\Desktop\19APP3906 - GYM\GYM\GYM\obj\Debug\GYM.exe
+C:\Users\HP\OneDrive\Desktop\19APP3906 - GYM\GYM\GYM\obj\Debug\GYM.pdb
+C:\Users\HP\OneDrive\Desktop\19APP3906 - GYM\GYM\GYM\obj\Debug\GYM.Form2.resources
+C:\Users\HP\OneDrive\Desktop\19APP3906 - GYM\GYM\GYM\obj\Debug\GYM.newmember.resources
+C:\Users\HP\OneDrive\Desktop\19APP3906 - GYM\GYM\GYM\bin\Debug\Database1.sdf
+C:\Users\HP\OneDrive\Desktop\19APP3906 - GYM\GYM\GYM\obj\Debug\GYM.detailslist.resources
+C:\Users\HP\OneDrive\Desktop\19APP3906 - GYM\GYM\GYM\obj\Debug\GYM.membershow.resources
+C:\Users\HP\OneDrive\Desktop\GYM\GYM\GYM\bin\Debug\GYM.exe.config
+C:\Users\HP\OneDrive\Desktop\GYM\GYM\GYM\obj\Debug\GYM.exe
+C:\Users\HP\OneDrive\Desktop\GYM\GYM\GYM\obj\Debug\GYM.pdb
+C:\Users\HP\OneDrive\Desktop\GYM\GYM\GYM\bin\Debug\GYM.exe
+C:\Users\HP\OneDrive\Desktop\GYM\GYM\GYM\bin\Debug\GYM.pdb
+C:\Users\HP\OneDrive\Desktop\GYM\GYM\GYM\bin\Debug\MySql.Data.dll
+C:\Users\HP\OneDrive\Desktop\GYM\GYM\GYM\obj\Debug\GYM.csprojResolveAssemblyReference.cache
+C:\Users\HP\OneDrive\Desktop\GYM\GYM\GYM\obj\Debug\GYM.detailslist.resources
+C:\Users\HP\OneDrive\Desktop\GYM\GYM\GYM\obj\Debug\GYM.Form1.resources
+C:\Users\HP\OneDrive\Desktop\GYM\GYM\GYM\obj\Debug\GYM.Form2.resources
+C:\Users\HP\OneDrive\Desktop\GYM\GYM\GYM\obj\Debug\GYM.membershow.resources
+C:\Users\HP\OneDrive\Desktop\GYM\GYM\GYM\obj\Debug\GYM.newmember.resources
+C:\Users\HP\OneDrive\Desktop\GYM\GYM\GYM\obj\Debug\GYM.Properties.Resources.resources
+C:\Users\HP\OneDrive\Desktop\GYM\GYM\GYM\obj\Debug\GYM.csproj.GenerateResource.Cache
+C:\Users\HP\OneDrive\Desktop\19APP3917 - GYM\GYM\GYM\bin\Debug\GYM.exe.config
+C:\Users\HP\OneDrive\Desktop\19APP3917 - GYM\GYM\GYM\obj\Debug\GYM.exe
+C:\Users\HP\OneDrive\Desktop\19APP3917 - GYM\GYM\GYM\obj\Debug\GYM.pdb
+C:\Users\HP\OneDrive\Desktop\19APP3917 - GYM\GYM\GYM\bin\Debug\GYM.exe
+C:\Users\HP\OneDrive\Desktop\19APP3917 - GYM\GYM\GYM\bin\Debug\GYM.pdb
+C:\Users\HP\OneDrive\Desktop\19APP3917 - GYM\GYM\GYM\bin\Debug\MySql.Data.dll
+C:\Users\HP\OneDrive\Desktop\19APP3917 - GYM\GYM\GYM\obj\Debug\GYM.csprojResolveAssemblyReference.cache
+C:\Users\HP\OneDrive\Desktop\19APP3917 - GYM\GYM\GYM\obj\Debug\GYM.detailslist.resources
+C:\Users\HP\OneDrive\Desktop\19APP3917 - GYM\GYM\GYM\obj\Debug\GYM.Form1.resources
+C:\Users\HP\OneDrive\Desktop\19APP3917 - GYM\GYM\GYM\obj\Debug\GYM.Form2.resources
+C:\Users\HP\OneDrive\Desktop\19APP3917 - GYM\GYM\GYM\obj\Debug\GYM.membershow.resources
+C:\Users\HP\OneDrive\Desktop\19APP3917 - GYM\GYM\GYM\obj\Debug\GYM.newmember.resources
+C:\Users\HP\OneDrive\Desktop\19APP3917 - GYM\GYM\GYM\obj\Debug\GYM.Properties.Resources.resources
+C:\Users\HP\OneDrive\Desktop\19APP3917 - GYM\GYM\GYM\obj\Debug\GYM.csproj.GenerateResource.Cache
+C:\Users\HP\OneDrive\Desktop\19APP3917 - GYM\GYM\GYM\obj\Debug\GYM.newstaff.resources
+C:\Users\HP\OneDrive\Desktop\19APP3917 - GYM\GYM\GYM\obj\Debug\GYM.staffshow.resources
+C:\Users\HP\OneDrive\Desktop\19APP3917 - GYM\GYM\GYM\obj\Debug\GYM.deleqp.resources
+C:\Users\HP\OneDrive\Desktop\19APP3917 - GYM\GYM\GYM\obj\Debug\GYM.deletedetails.resources
+C:\Users\HP\OneDrive\Desktop\19APP3917 - GYM\GYM\GYM\obj\Debug\GYM.deletmember.resources
+C:\Users\HP\OneDrive\Desktop\19APP3917 - GYM\GYM\GYM\obj\Debug\GYM.delstaf.resources
+C:\Users\HP\OneDrive\Desktop\19APP3917 - GYM\GYM\GYM\obj\Debug\GYM.eqpshow.resources
+C:\Users\HP\OneDrive\Desktop\19APP3917 - GYM\GYM\GYM\obj\Debug\GYM.feesadd.resources
+C:\Users\HP\OneDrive\Desktop\19APP3917 - GYM\GYM\GYM\obj\Debug\GYM.feesshow.resources
+C:\Users\HP\OneDrive\Desktop\19APP3917 - GYM\GYM\GYM\obj\Debug\GYM.neweqp.resources

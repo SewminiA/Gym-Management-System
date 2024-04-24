@@ -1,0 +1,380 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0C8862FA-3E62-463F-803E-7EEE00ACF3F4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GYM</RootNamespace>
+    <AssemblyName>GYM</AssemblyName>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data">
+      <HintPath>..\..\..\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SqlServerCe, Version=4.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="deleqp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="deleqp.Designer.cs">
+      <DependentUpon>deleqp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="deletedetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="deletedetails.Designer.cs">
+      <DependentUpon>deletedetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="deletmember.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="deletmember.Designer.cs">
+      <DependentUpon>deletmember.cs</DependentUpon>
+    </Compile>
+    <Compile Include="delstaf.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="delstaf.Designer.cs">
+      <DependentUpon>delstaf.cs</DependentUpon>
+    </Compile>
+    <Compile Include="detailslist.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="detailslist.Designer.cs">
+      <DependentUpon>detailslist.cs</DependentUpon>
+    </Compile>
+    <Compile Include="eqpshow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="eqpshow.Designer.cs">
+      <DependentUpon>eqpshow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="feesadd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="feesadd.Designer.cs">
+      <DependentUpon>feesadd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="feesshow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="feesshow.Designer.cs">
+      <DependentUpon>feesshow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="membershow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="membershow.Designer.cs">
+      <DependentUpon>membershow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="neweqp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="neweqp.Designer.cs">
+      <DependentUpon>neweqp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="newmember.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="newmember.Designer.cs">
+      <DependentUpon>newmember.cs</DependentUpon>
+    </Compile>
+    <Compile Include="newstaff.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="newstaff.Designer.cs">
+      <DependentUpon>newstaff.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="staffshow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="staffshow.Designer.cs">
+      <DependentUpon>staffshow.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="deleqp.resx">
+      <DependentUpon>deleqp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="deletedetails.resx">
+      <DependentUpon>deletedetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="deletmember.resx">
+      <DependentUpon>deletmember.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="delstaf.resx">
+      <DependentUpon>delstaf.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="detailslist.resx">
+      <DependentUpon>detailslist.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="eqpshow.resx">
+      <DependentUpon>eqpshow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="feesadd.resx">
+      <DependentUpon>feesadd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="feesshow.resx">
+      <DependentUpon>feesshow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="membershow.resx">
+      <DependentUpon>membershow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="neweqp.resx">
+      <DependentUpon>neweqp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="newmember.resx">
+      <DependentUpon>newmember.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="newstaff.resx">
+      <DependentUpon>newstaff.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="staffshow.resx">
+      <DependentUpon>staffshow.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fitness %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dumbbell.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\training.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\log-out.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %2813%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %2817%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2815%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2817%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\treadmill-in-modern-gym-toned-image-3d-rendering-generative-ai-free-photo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add-group.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\staff.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\staff1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\staff2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fitness.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\people.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\contact.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\contact %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2814%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-1193707579-612x612.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\barbell.png" />
+    <None Include="Resources\weightlifting.png" />
+    <None Include="Resources\staff %281%29.png" />
+    <None Include="Resources\fee.png" />
+    <None Include="Resources\list.png" />
+    <None Include="Resources\view.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.SQL.Server.Compact.4.0">
+      <Visible>False</Visible>
+      <ProductName>SQL Server Compact 4.0 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-cottonbro-4327024.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gym-3626589_1280.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-cottonbro-7675412.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-julia-larson-6455784.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-roman-odintsov-4553611.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-roman-odintsov-45536111.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wrestler_6173707.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\training_3664390.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-cottonbro-43270241.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chest-press_3475525.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\money_631149.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pork-barrel_3751742.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\brett-jordan-U2q73PfHFpM-unsplash.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\money_10841545.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pay_625599.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete_12319540.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
